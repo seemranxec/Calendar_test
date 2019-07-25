@@ -1,0 +1,136 @@
+  .display-background {
+    padding:25px;
+    width: 100%;
+    background: #1abc9c;
+    text-align: center;
+  }
+  .choose-month span{
+    font-size: 32px;
+  }
+  button:focus,button:active,button:visited{
+    outline: none;
+  }
+  .choose-month button {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    background-color: transparent;
+    border: 0;
+    position: relative;
+    cursor: pointer;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+  }
+  .choose-month button:hover{
+    background-color: #eee;
+  }
+  .choose-month button img{
+    max-width: 22px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .choose-month .prev {
+    float: left;
+    padding-top: 10px;
+  }
+  
+  .choose-month .next {
+    float: right;
+    padding-top: 10px;
+  }
+  .year{
+    position: absolute;
+    left: 50%;
+    top: 16px;
+    transform: translate(-50%,-50%);
+  }
+  .weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color: #ddd;
+  }
+  
+  .weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: #666;
+    text-align: center;
+  }
+  .weeks {
+    padding: 10px 0;
+    background: #eee;
+    margin: 0;
+  }
+  
+  .weeks li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:16px;
+    color: #221f1f;
+    position: relative;
+    height: 45px;
+  }
+  .holiday{
+    background-color: #1abc9c;
+    cursor: pointer;
+    border-radius:5px; 
+  }
+  .holiday:hover{
+    background-color: #26a78e;
+  }
+  .holiday:after{
+    content: 'Holiday';
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    font-size: 12px;
+    background-color: #b5d3f1;
+    border-radius: 5px;
+    padding: 3px;
+    font-weight: 500;
+    color: #333;
+  }
+  .weeks li span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .weeks li.holiday.active {
+    padding: 5px;
+    background: #1abc9c;
+    color: white;
+  }
+  .weeks .disabled{
+    color: #ccc8c8;
+  }
+  .holiday-info{
+    padding: 15px;
+    text-align: center;
+    background-color: #90d4c6;
+  }
+
+
+
+  /*--------------Media Queries-----------------*/
+  @media only screen and (max-width: 991px) {
+    .holiday:after{
+      content: 'H';
+    }
+  }
+  @media only screen and (max-width: 481px) {
+    .holiday:after{
+      content: 'H';
+      font-size: 10px;
+      padding: 2px;
+      left: 0;
+      bottom: 0;
+    }
+  }

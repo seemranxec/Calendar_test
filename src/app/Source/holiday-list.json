@@ -1,0 +1,105 @@
+[
+	{
+		"date": "Jan 01, 2019",
+		"holiday": "New Years day"
+	},
+	{
+		"date": "January 14, 2019",
+		"holiday": "Makar Sankranti/Pongal"
+	},
+	{
+		"date": "January 26, 2019",
+		"holiday": "Republic Day"
+		
+	},
+	{
+		"date": "Mar 04, 2019",
+		"holiday": "Maha Shivratri"
+	},
+	{
+		"date": "Mar 21, 2019",
+		"holiday": "Holi"
+		
+	},
+	{
+		"date": "Apr 06, 2019",
+		"holiday": "Ugadi/Gudi Padwa"
+	},
+	{
+		"date": "Apr 13, 2019",
+		"holiday": "Ram Navami"
+	},
+	{
+		"date": "Apr 17, 2019",
+		"holiday": "Mahavir Jayanti"
+	},
+	{
+		"date": "Apr 19, 2019",
+		"holiday": "Good Friday"
+	},
+	{
+		"date": "May 01, 2019",
+		"holiday": "Labor Day"
+	},
+	{
+		"date": "May 18, 2019",
+		"holiday": "Buddha Purnima"
+	},
+	{
+		"date": "Jun 05, 2019",
+		"holiday": "Eid-Ul-Fitar"
+	},
+	{
+		"date": "Jul 04, 2019",
+		"holiday": "Rath Yatra"
+	},
+	{
+		"date": "Aug 12, 2019",
+		"holiday": "Bakri Id/Eid ul-Adha"
+	},
+	{
+		"date": "Aug 15, 2019",
+		"holiday": "Independence Day"
+	},
+	{
+		"date": "Aug 24, 2019",
+		"holiday": "Janmashtmi"
+	},
+	{
+		"date": "Sep 02, 2019",
+		"holiday": "Vinayaka Chaturthi"
+	},
+	{
+		"date": "Sep 10, 2019",
+		"holiday": "Muharram"
+	},
+	{
+		"date": "Sep 11, 2019",
+		"holiday": "Onam"
+	},
+	{
+		"date": "Oct 02, 2019",
+		"holiday": "Gandhi Jayanti"
+	},
+	{
+		"date": "Oct 08, 2019",
+		"holiday": "Dussehra"
+	},
+	{
+		"date": "Oct 27, 2019",
+		"holiday": "Diwali/Deepawali"
+	},
+	{
+		"date": "Nov 10, 2019",
+		"holiday": "Milad un Nabi"
+	},
+	{
+		"date": "Nov 12, 2019",
+		"holiday": "Guru Nanak's Birthday"
+		
+	},
+	{
+		"date": "Dec 25, 2019",
+		"holiday": "Christmas"
+	}
+]

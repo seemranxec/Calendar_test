@@ -1,0 +1,26 @@
+<div class="angular-calendar">
+  <div class="display-background">
+    <div class="year">
+      <span>{{currentDate.format('YYYY')}}</span>
+    </div>
+    <div class="choose-month">
+      <button (click)="chooseMonth('previous')" class="prev"><img src="../../../assets/back.svg" alt="" /></button>
+      <span>{{currentDate.format('MMMM')}}</span>
+      <button (click)="chooseMonth('next')" class="next"><img src="../../../assets/arrow-point-to-right.svg" alt=""></button>
+    </div>
+  </div>
+  <ul class="weekdays">
+    <li *ngFor="let weekDay of daysInWeek" class="weekday">{{weekDay}}</li>
+  </ul>
+  <div class="month-days">
+    <ul *ngFor="let week of weeks" class="weeks week-row">
+      <li *ngFor="let day of week" [ngClass]="{ disabled : !day.isSelectedMonth,holiday : day.isHoliday}"
+        (click)="getHolidayInfoOnClick($event,day.momentDate.format('LL'))">
+        <span class="date-text day">{{day.momentDate.date() }}</span>
+      </li>
+    </ul>
+  </div>
+  <div class="holiday-info" *ngIf="isHolidayClicked">{{holidayInfo}}
+    is celebrated on this day
+  </div>
+</div>
